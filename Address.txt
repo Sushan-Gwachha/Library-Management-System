@@ -1,0 +1,97 @@
+void whoareyou(); --> printf("Home>\n");
+
+void admin(); --> 
+void mainpageforAdmin(); --> printf("Home> Admin>\n\n");
+
+void loginPage(); --> printf("Home> Admin> Login>\n");
+
+void signupPage(); --> printf("Home> Admin> Signup>\n\n");
+void signupAdmin(); --> printf("Home> Admin> Signup> SignupAdmin>\n\n");
+void signupStaff(); --> printf("Home> Admin> Signup> signupStaff>\n\n");
+
+void UpdatePage(); --> printf("Home> Admin> Update>\n\n");
+void upkey(); --> printf("Home> Admin> Update> Updatekey>\n\n");
+void uppass(); --> printf("Home> Admin> Update> Updatepassword>\n\n");
+void updateAdmin(); --> printf("Home> Admin> Update> UpdateAdminPassword>\n\n");
+void updateStaff(); -->  printf("Home> Admin> Update> UpdateStaffPassword>\n\n");
+
+void deletePage(); --> printf("Home> Admin> Delete>\n\n");
+void admindel(); --> printf("Home> Admin> Delete> Deleteadmin>\n\n");
+void userdel(); --> printf("Home> Admin> Delete> Deletestaff>\n\n");
+
+void exitPage(); --> printf("Home> Admin> Exit>\n\n");
+
+void Key(); --> //printf("Home> Admin> Update> Updatekey> Key>\n\n");
+void makeKey(); -->
+
+void staff(); -->
+void mainpageforStaff(); --> printf("Home> Staff>\n\n");
+void loginpageforStaff(); --> printf("Home> Staff> Login>\n\n");
+void helppageforStaff(); --> printf("Home> Staff> Help>\n\n");
+void manualforStaff(); --> printf("Home> Staff> Help> Manual>\n\n");
+void exitpageforStaff(); -->  printf("Home> Staff> Exit>\n\n");
+
+void membership(int *mrole); --> printf("Home> Admin> Membership>\n\n");
+                            --> printf("Home> Staff> Membership>\n\n");
+
+void viewMember(int *mrole); --> printf("Home> Admin> Membership> Viewmember>\n\n");
+                             --> printf("Home> Staff> Membership> Viewmember>\n\n"); 
+void searchMember(int *mrole); --> printf("Home> Admin> Membership> Searchmember>\n\n");
+                               --> printf("Home> Staff> Membership> Searchmember>\n\n"); 
+void addMember(int *mrole); --> printf("Home> Admin> Membership> Addmember>\n\n");
+                            --> printf("Home> Staff> Membership> Addmember>\n\n");
+
+void deleteMember(int *mrole); -->
+
+void start(); --> printf("Home> Admin> Login> %s>\n", L.userName);
+void startforStaff(); --> printf("Home> Staff> Login> %s>\n", L.userName);
+
+void list(); -->
+void listforstaff(); -->
+
+void addBook(); --> printf("Home > Admin > Login > % s > Addbook >\n",L.userName);
+
+void viewBook(); --> printf("Home> Admin> Login> %s> Viewbook>\n",L.userName);
+void viewBookforStaff(); --> printf("Home> Staff> Login> %s> Viewbook>\n",L.userName);
+
+void viewallbook(); -->  printf("Home> Admin > Login> %s> Viewbook> Viewallbook>\n");
+                    -->  printf("Home> Staff > Login> %s> Viewbook> Viewallbook>\n");
+void viewissuedbook(); --> printf("Home> Admin> Login> %s> Viewbook> Viewissuedbook>\n");
+                        --> printf("Home> Staff> Login> %s> Viewbook> Viewissuedbook>\n");
+void viewavailablebook(); --> printf("Home> Admin> Login> %s> Viewbook> Viewavailablebook>\n");
+                           --> printf("Home> Staff> Login> %s> Viewbook> Viewavailablebook>\n");
+
+void searchBook(); --> printf("Home> Admin> Login> %s> Searchbook>\n", L.userName);
+void searchBookforStaff(); --> printf("Home> Staff> Login> %s> Searchbook>\n", L.userName);
+
+void searchBookid(); --> printf("Home> Admin> Login> %s> Searchbook> Searchbookid>\n", L.userName);
+                     --> printf("Home> Staff> Login> %s> Searchbook> Searchbookid>\n", L.userName);
+void searchBookName(); --> printf("Home> Admin> Login> %s> Searchbook> Searchbookname>\n", L.userName);
+                        --> printf("Home> Staff> Login> %s> Searchbook> Searchbookname>\n", L.userName);
+void searchBookAuthor(); --> printf("Home> Admin> Login> %s> Searchbook> Searchbookauthor>\n", L.userName);
+                          --> printf("Home> Staff> Login> %s> Searchbook> Searchbookauthor>\n", L.userName);
+
+void issueBook(); --> printf("Home> Admin> Login> %s> Issuebook>\n", L.userName); 
+void issueBookforStaff(); --> printf("Home> Staff> Login> %s> Issuebook>\n", L.userName);
+
+void returnBook(); -->  printf("Home> Admin> Login> %s> Returnbook>\n", L.userName);
+void returnBookforStaff(); -->  printf("Home> Staff> Login> %s> Returnbook>\n", L.userName);
+
+void updateBook(); --> printf("Home> Admin> Login> %s> Updatebook>\n", L.userName);
+void Uupbookid(int bookid); --> printf("Home> Admin> Login> %s> Updatebook> Updatebookid>\n", L.userName);
+void Uupbooktitle(int bookid); --> printf("Home> Admin> Login> %s> Updatebook> Updatebooktitle>\n", L.userName);
+void Uupbookauthor(int bookid); --> printf("Home> Admin> Login> %s> Updatebook> Updatebookauthor>\n", L.userName);
+
+void deleteBook(); --> printf("Home> Admin> Login> %s> Deletebook>\n", L.userName);
+
+void helpBook(); --> printf("Home> Admin> Login> %s> Help>\n", L.userName);
+void helpBookforStaff(); --> printf("Home> Staff> Login> %s> Help>\n", L.userName);
+
+void manual(); --> printf("Home> Admin> Login> %s> Help> Manual>\n", L.userName);
+void manualStaff(); --> printf("Home> Staff> Login> %s> Help> Manual>\n", L.userName);
+
+void aboutus(); --> printf("Home> Admin> Login> %s> Aboutus>\n", L.userName);
+void aboutusforStaff(); --> printf("Home> Staff> Login> %s> Aboutus>\n", L.userName);
+
+void exitProgram(); --> printf("Home> Admin> Login> %s> Exit>\n", L.userName);
+void exitProgramforStaff();  -->  printf("Home> Staff> Login> %s> Exit>\n", L.userName);

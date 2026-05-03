@@ -1,0 +1,70 @@
+void whoareyou(); // mainpage
+
+void admin();
+void mainpageforAdmin(); // admin main page
+
+void loginPage(); //login
+
+void signupPage(); //signup
+void signupAdmin(); 
+void signupStaff();
+
+void UpdatePage(); //update
+void upkey(); // updateKey
+void uppass(); // updatepassword
+void updateAdmin(); // updateAdmindetails
+void updateStaff(); // updateStaff details
+
+void deletePage(); // delete
+void admindel(); // inside delete for deleting admin
+void userdel(); // inside delete for deleting staff 
+
+void exitPage(); // for exit
+
+void staff(); 
+void mainpageforStaff(); // Staff main page
+void loginpageforStaff(); // login
+void exitpageforStaff(); // exit
+
+void membership(int *mrole); // for membership
+
+void viewMember(int *mrole); // for viewing member
+void searchMember(int *mrole); // for Searching member
+void addMember(int *mrole);  // for adding member
+void deleteMember(int *mrole); // for deleteing member
+
+void start(); 
+void startforStaff();
+
+void addBook();
+
+void viewBook(int *vrole);
+void viewallbook(int *vrole);
+void viewissuedbook(int *vrole);
+void viewavailablebook(int *vrole);
+
+void searchBook(int *srole);
+
+void searchBookid(int *srole);
+void searchBookName(int *srole);
+void searchBookAuthor(int *srole);
+
+void issueBook(int *irole);
+
+void returnBook(int *rrole);
+void returnBookforStaff();
+
+void updateBook();
+void Uupbookid(int bookid);
+void Uupbooktitle(int bookid);
+void Uupbookauthor(int bookid);
+
+void deleteBook();
+
+void helpBook(int *hrole);
+
+void manual(int *hrole); // in help function
+
+void aboutus(int *arole);
+
+void exitProgram(int *erole);
