@@ -1,0 +1,1 @@
+This is a simple Library Management System, made with c language.
